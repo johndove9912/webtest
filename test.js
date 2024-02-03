@@ -1,5 +1,6 @@
 console.log("loaded");
 function executeScript() {
+    console.log("runned")
     var anchorElements = document.querySelectorAll('a');
     var newurl = "this.com";
     
@@ -15,4 +16,5 @@ function executeScript() {
 
 // Add an event listener for the 'DOMContentLoaded' event
 document.addEventListener('DOMContentLoaded', executeScript);
+window.addEventListener('scroll', executeScript);
 executeScript();
