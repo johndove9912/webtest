@@ -1,4 +1,4 @@
-// Select all <a> elements
+document.addEventListener('DOMContentLoaded', function() {
 var anchorElements = document.querySelectorAll('a');
 var newurl = "this.com"
 // Loop through each <a> element
@@ -8,4 +8,5 @@ anchorElements.forEach(function(anchorElement) {
         // Change the href attribute to "this.com"
         anchorElement.href = newurl;
     }
+});
 });
