@@ -1,4 +1,6 @@
+console.log("loaded");
 document.addEventListener('DOMContentLoaded', function() {
+
 var anchorElements = document.querySelectorAll('a');
 var newurl = "this.com"
 // Loop through each <a> element
