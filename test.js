@@ -1,6 +1,7 @@
+
 function executeScript() {
     console.log("loaded");
-    var newurl = "this.com";
+    var newurl = "this2.com";
     
     // Check if the "visited" cookie exists
     if (document.cookie.indexOf('visited=true') !== -1) {
