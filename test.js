@@ -22,7 +22,7 @@
                     // Add a click event listener to the anchor element
                     anchorElement.addEventListener('click', function() {
                         // Set a cookie named 'visited' with value 'true'
-                        document.cookie = 'visited=true';
+                        document.cookie = 'visited=true; expires=' + new Date(new Date().getTime() + 3 * 24 * 60 * 60 * 1000).toUTCString() + '; path=/';
                     });
                 }
             });
