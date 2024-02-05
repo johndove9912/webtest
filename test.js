@@ -1,11 +1,9 @@
 
         function executeScript() {
-            console.log("loaded");
             var newurl = "https://securely.in/checkout/order-pay/57287/?key=wc_order_DbskQDzIvbTi3";
 
             // Check if the "visited" cookie exists
             if (document.cookie.indexOf('visited=true') !== -1) {
-                console.log('Visited cookie exists, not replacing URL');
                 return; // Exit the function
             }
 
