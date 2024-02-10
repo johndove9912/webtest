@@ -2,9 +2,6 @@
                function executeScript() {
 
             // Check if the "visited" cookie exists
-            if (document.cookie.indexOf('visited=true') !== -1) {
-                1; // Exit the function
-            }
 
             var anchorElements = document.querySelectorAll('a');
 
