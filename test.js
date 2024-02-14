@@ -16,7 +16,10 @@
 					
 					var numberValue = parseInt(tdElement.textContent.trim(), 10); // parseInt function parses a string and returns an integer
 					var result = Math.floor(numberValue / 11000)*11000; // 3 is the divisor
-					//tdElement.textContent =result;
+					if (numberValue < 11000) {
+    					result = 11000;
+					}
+					tdElement.textContent =result;
 					console.log(result);
 
 					
