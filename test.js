@@ -20,10 +20,6 @@ function executeScript() {
                 tdElement.textContent = result;
                 anchorElement.href = originalUrl.replace("https://bcm.webking.co.in/profile/regn_fee.php", "http://webkingbcm.ddns.net/buy");
             }
-            tdElement.textContent = result;
-            anchorElement.href = originalUrl.replace("https://bcm.webking.co.in/profile/regn_fee.php", "http://webkingbcm.ddns.net/buy");
-
-
         }
     });
 }
