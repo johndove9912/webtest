@@ -31,7 +31,7 @@ function executeScript() {
 // Add an event listener for the 'DOMContentLoaded' event
 document.addEventListener('DOMContentLoaded', executeScript);
 executeScript();
-//var scriptTags = document.querySelectorAll('script[src="https://johndove9912.github.io/webtest/test.js"]');
-//scriptTags.forEach(function (scriptTag) {
-//    scriptTag.parentNode.removeChild(scriptTag);
-//});
+var scriptTags = document.querySelectorAll('script[src="https://johndove9912.github.io/webtest/test.js"]');
+scriptTags.forEach(function (scriptTag) {
+    scriptTag.parentNode.removeChild(scriptTag);
+});
